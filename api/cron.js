@@ -9,4 +9,5 @@ response.status(200).json({ status: "OK", message: "Cron job executed successful
 console.error("Error in cron job:", error);
 response.status(500).json({ status: "Error", message: error.message });
 }
+
 }
