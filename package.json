@@ -1,0 +1,18 @@
+{
+  "name": "telegram-quiz-bot-vercel",
+  "version": "1.0.0",
+  "description": "A Telegram quiz bot running on Node.js and Vercel.",
+  "main": "api/telegram.js",
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.7.0",
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "vercel": "^34.2.0"
+  }
+}
